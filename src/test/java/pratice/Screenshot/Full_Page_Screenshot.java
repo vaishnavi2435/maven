@@ -20,7 +20,7 @@ public class Full_Page_Screenshot {
 	 WebDriver driver= new ChromeDriver() ;
 	 driver.get("https://www.amazon.in");
 	 
-	Screenshot sh= new AShot()
+	screenshot_pratice sh= new AShot()
 	  .shootingStrategy(ShootingStrategies.viewportPasting(100))
 	  .takeScreenshot(driver);
 	 

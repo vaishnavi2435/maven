@@ -32,11 +32,12 @@ public class Scrollbar {
 	 // js.executeScript("window.scrollBy(document.body.scrollHeight,0)");
 	  
 	  js.executeScript("window.scrollTo( document.body.scrollHeight,0)");
-	String tittle=  js.executeScript(" return document.tittle").toString();
-	System.out.println(tittle);
+	//String tittle=  js.executeScript(" return document.tittle").toString();
+	 // String tittle=js.executeScript("return document.tittle").toString();
+	//System.out.println(tittle);
 	
       
-      
+	screenshot_pratice .screenshot(driver, "pratice");
 	  
 	  
 	  
