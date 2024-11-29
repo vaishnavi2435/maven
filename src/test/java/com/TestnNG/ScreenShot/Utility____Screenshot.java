@@ -18,7 +18,7 @@ public class Utility____Screenshot
 		
 		TakesScreenshot sc=(TakesScreenshot)driver;
 		File temp=sc.getScreenshotAs(OutputType.FILE);
-		File dest =new File(System.getProperty("user.dir")+"//screenshot" +name +System.currentTimeMillis()+".Png");
+		File dest =new File(System.getProperty("user.dir")+"//screenshot//" +name +System.currentTimeMillis()+".Png");
 		try {
 			FileHandler.copy(temp, dest);
 		} catch (IOException e) {

@@ -22,7 +22,7 @@ public class fullpagescreenshot {
 	  driver.get("https://github.com/pazone/ashot");
 	  
 	  
-	  Screenshot sh= new AShot()
+	  screenshot_pratice sh= new AShot()
 			  .shootingStrategy(ShootingStrategies.viewportPasting(100))
 			  .takeScreenshot(driver);
 			 

@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-import pratice.Screenshot.Utility.Utility_Screenshot;
+import pratice.screenshot_pratice.Utility.Utility_Screenshot;
 
 public class ToolTip_Mouse_operator {
   @Test

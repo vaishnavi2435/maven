@@ -24,6 +24,7 @@ List<WebElement>alllink	=  driver.findElements(By.tagName("a"));
 		System.out.println(i.getText());
 		System.out.println(i.getAttribute("href"));
 	}
+	//pratice.screenshot_pratice.java(driver,"ss");
 	
   }
 }
